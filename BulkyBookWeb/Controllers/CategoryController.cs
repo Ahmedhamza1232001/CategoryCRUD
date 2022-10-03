@@ -29,7 +29,7 @@ namespace BulkyBookWeb.Controllers
         [ValidateAntiForgeryToken] //what is validate AntiForgryToken
         public IActionResult Create(Category obj)
         {
-            if (obj.Name == obj.DisplayOrder.ToString())//add custom server side validation
+            if (obj.Name == obj.Age.ToString())//add custom server side validation
             {
                 ModelState.AddModelError("name", "the DisplayOrder Cannot match the Name ");
             }
@@ -60,7 +60,7 @@ namespace BulkyBookWeb.Controllers
         [ValidateAntiForgeryToken] //what is validate AntiForgryToken
         public IActionResult Edit(Category obj)
         {
-            if (obj.Name == obj.DisplayOrder.ToString())//add custom server side validation
+            if (obj.Name == obj.Age.ToString())//add custom server side validation
             {
                 ModelState.AddModelError("name", "the DisplayOrder Cannot match the Name ");
             }

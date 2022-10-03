@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zqdGsLT17m3zvXgK/hcCqMK7m3KSL0EYiBU46kw/M58=",
+  "Hash": "A4037tvgSYFItZfc1XoDiiL4G9YvYTabx09mUk+4B7g=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ahmed\\Desktop\\Bulky\\BulkyBookWeb\\wwwroot\\Imgs\\The Little Things - Working.png",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmed\\Desktop\\Bulky\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "Imgs/The Little Things - Working.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imgs\\The Little Things - Working.png"
     },
     {
       "Identity": "C:\\Users\\ahmed\\Desktop\\Bulky\\BulkyBookWeb\\wwwroot\\js\\site.js",

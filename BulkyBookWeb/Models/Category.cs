@@ -11,7 +11,7 @@ namespace BulkyBookWeb.Models
         public string Name { get; set; } = string.Empty;
         [DisplayName("Display Order")]
         [Range(1,100,ErrorMessage ="Display order must be 1 to 100 only!!")] 
-        public int DisplayOrder { get; set; }
+        public int Age { get; set; }
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
 
     }
